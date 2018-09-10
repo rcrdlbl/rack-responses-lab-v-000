@@ -1,7 +1,8 @@
 class Application
 
   def call(env)
-    current = now()
+    current = Time.now
+    
     
   end
 
